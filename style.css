@@ -7,6 +7,8 @@ footer{
   font-weight: 600;
   line-height: 1.5;
 } */
+
+
 footer {
     background-color: rgb(23, 36, 58);
     color: white;
@@ -76,8 +78,10 @@ footer ul {
 
 
 
-body {
+* {
     font-family: "DM Sans", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .contact-section {
@@ -235,19 +239,8 @@ body {
 .contact-us{
     background-color: rgb(249 250 251) !important;
 }
-/* @media (max-width: 768px) {
-    .contact-header h2 {
-        font-size: 2rem;
-    }
-    
-    .contact-header p {
-        font-size: 1rem;
-    }
-    
-    .contact-item {
-        padding: 10px;
-    }
-} */
+
+
 
 .logo-icon {
     filter: grayscale(100%);
@@ -446,3 +439,138 @@ body {
     text-decoration: none;
     transition: background-color 0.3s;
 }
+
+.achievind{
+    font-family: "DM Sans", sans-serif;
+}
+
+.achievind a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    padding-right: 5px;
+}
+
+#achievind-title{
+    color: rgb(93 135 255);
+    font-weight: bold;
+}
+#achievind-slogan{
+    font-weight: 600;
+
+}
+
+.achievind-content{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.achievind-content svg{
+    color: rgb(93 135 255);
+    background-color: rgb(229, 238, 245);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+
+.achievind-content h4{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.top-services-top-container{
+    /* border: 1px solid red; */
+    /* width: 45%; */
+}
+
+.top-services-top-container p{
+    color: rgb(93 135 255);
+    font-weight: bold;
+    font-size: 12px;
+
+}
+
+.top-services-top-container h3{
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.service-elements{
+    /* border: 2px solid red; */
+    padding: 10px;
+    margin-bottom: 3%;
+
+}
+
+.service-elements svg{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 60px;
+    height: 60px;
+
+
+    color: rgb(93 135 255);
+    background-color: rgb(229, 238, 245);
+    border-radius: 50%;
+    padding: 15px;
+    
+    
+}
+
+.service-elements h4{
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+
+/* .grid-bg {
+    background-color: #fff;
+    background-image: linear-gradient(to right, #ddd 1px, transparent 1px),
+                      linear-gradient(to bottom, #ddd 1px, transparent 1px);
+    background-size: 40px 40px;
+  } */
+
+  .grid-bg {
+    background-color: red ;
+    background-image: 
+      linear-gradient(to right, red 1px, ),
+      linear-gradient(to bottom, blue 1px, );
+    background-size: 40px 40px;
+  }
+
+.navbar-nav .nav-item.active .nav-link {
+    color: rgb(93 135 255)!important;
+    font-weight: bold; 
+  }
+  
+
+  .navbar-nav .nav-item .nav-link:hover {
+    color: rgb(93 135 255) !important;
+  }
+  
+  .navbar-nav .nav-item .nav-link:focus {
+    color: rgb(93 135 255) !important;
+  }
+
+.home-page{
+    margin-top: 3%;
+   margin-left: 3%;
+   margin-right: 3%;
+}
+.home-page-left-right p{
+    font-size: 12px;
+}
+
+.home-page-bg {
+    background-image: 
+      linear-gradient(to right, rgb(240, 240, 240) 1px, transparent 1px),
+      linear-gradient(to bottom, rgb(240, 240, 240) 1px, transparent 1px);
+    background-size: 70px 70px;
+  }
+  
